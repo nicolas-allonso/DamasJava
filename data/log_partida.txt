@@ -1,0 +1,48 @@
+2026-06-15 20:23:45 - Jogo iniciado entre Jogador1 e Jogador2. Primeiro a jogar: Jogador1
+2026-06-15 20:23:56 - Jogador1 moveu a peca de (5,4) para (4,3)
+2026-06-15 20:23:56 - Proximo turno: Jogador2
+2026-06-15 20:24:00 - Jogador2 moveu a peca de (2,3) para (3,2)
+2026-06-15 20:24:00 - Proximo turno: Jogador1
+2026-06-15 20:24:05 - Jogador1 moveu a peca de (4,3) para (3,4)
+2026-06-15 20:24:05 - Proximo turno: Jogador2
+2026-06-15 20:24:11 - Jogador2 moveu a peca de (2,5) para (4,3)
+2026-06-15 20:24:11 - Proximo turno: Jogador1
+2026-06-15 20:24:14 - Jogador1 moveu a peca de (5,2) para (3,4)
+2026-06-15 20:24:14 - Proximo turno: Jogador2
+2026-06-15 20:25:20 - Jogo iniciado entre Jogador1 e Jogador2. Primeiro a jogar: Jogador1
+2026-06-15 20:25:25 - Jogador1 moveu a peca de (5,2) para (4,3)
+2026-06-15 20:25:25 - Proximo turno: Jogador2
+2026-06-15 20:25:30 - Jogador2 moveu a peca de (2,5) para (3,4)
+2026-06-15 20:25:30 - Proximo turno: Jogador1
+2026-06-15 20:25:52 - Jogador1 moveu a peca de (6,1) para (5,2)
+2026-06-15 20:25:52 - Proximo turno: Jogador2
+2026-06-15 20:25:58 - Jogador2 moveu a peca de (2,1) para (3,0)
+2026-06-15 20:25:58 - Proximo turno: Jogador1
+2026-06-15 20:26:29 - Jogador1 moveu a peca de (5,6) para (4,7)
+2026-06-15 20:26:29 - Proximo turno: Jogador2
+2026-06-15 20:26:34 - Jogador2 moveu a peca de (1,4) para (2,5)
+2026-06-15 20:26:34 - Proximo turno: Jogador1
+2026-06-15 20:26:42 - Jogador1 moveu a peca de (5,4) para (4,5)
+2026-06-15 20:26:42 - Proximo turno: Jogador2
+2026-06-15 20:26:45 - Jogador2 moveu a peca de (3,4) para (5,6)
+2026-06-15 20:26:45 - Proximo turno: Jogador1
+2026-06-15 20:26:51 - Jogador1 moveu a peca de (6,3) para (5,4)
+2026-06-15 20:26:51 - Proximo turno: Jogador2
+2026-06-15 20:26:57 - Jogador2 moveu a peca de (2,5) para (3,4)
+2026-06-15 20:26:57 - Proximo turno: Jogador1
+2026-06-15 20:27:01 - Jogador1 moveu a peca de (7,4) para (6,3)
+2026-06-15 20:27:01 - Proximo turno: Jogador2
+2026-06-15 20:27:03 - Jogador2 moveu a peca de (2,3) para (3,2)
+2026-06-15 20:27:03 - Proximo turno: Jogador1
+2026-06-15 20:27:06 - Jogador1 moveu a peca de (6,7) para (4,5)
+2026-06-15 20:27:06 - Jogador1 deve continuar capturando com a peca em (4,5).
+2026-06-15 20:27:14 - Jogador1 moveu a peca de (4,5) para (2,3)
+2026-06-15 20:27:14 - Proximo turno: Jogador2
+2026-06-15 20:27:18 - Jogador2 moveu a peca de (1,2) para (3,4)
+2026-06-15 20:27:18 - Proximo turno: Jogador1
+2026-06-15 20:27:21 - Jogador1 moveu a peca de (4,3) para (2,5)
+2026-06-15 20:27:21 - Proximo turno: Jogador2
+2026-06-15 20:27:31 - Jogador2 moveu a peca de (3,2) para (4,1)
+2026-06-15 20:27:31 - Proximo turno: Jogador1
+2026-06-15 20:27:39 - Jogador1 moveu a peca de (5,2) para (4,3)
+2026-06-15 20:27:39 - Proximo turno: Jogador2

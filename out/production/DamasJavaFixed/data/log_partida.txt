@@ -1,0 +1,11 @@
+2026-06-15 20:23:45 - Jogo iniciado entre Jogador1 e Jogador2. Primeiro a jogar: Jogador1
+2026-06-15 20:23:56 - Jogador1 moveu a peca de (5,4) para (4,3)
+2026-06-15 20:23:56 - Proximo turno: Jogador2
+2026-06-15 20:24:00 - Jogador2 moveu a peca de (2,3) para (3,2)
+2026-06-15 20:24:00 - Proximo turno: Jogador1
+2026-06-15 20:24:05 - Jogador1 moveu a peca de (4,3) para (3,4)
+2026-06-15 20:24:05 - Proximo turno: Jogador2
+2026-06-15 20:24:11 - Jogador2 moveu a peca de (2,5) para (4,3)
+2026-06-15 20:24:11 - Proximo turno: Jogador1
+2026-06-15 20:24:14 - Jogador1 moveu a peca de (5,2) para (3,4)
+2026-06-15 20:24:14 - Proximo turno: Jogador2
