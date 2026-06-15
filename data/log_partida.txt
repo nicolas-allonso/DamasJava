@@ -1,0 +1,33 @@
+2026-06-15 16:23:11 - Jogo iniciado entre Jogador1 e Jogador2. Primeiro a jogar: Jogador1
+2026-06-15 16:24:08 - Jogador1 moveu a peça de (5,4) para (4,3)
+2026-06-15 16:24:08 - Próximo turno: Jogador2
+2026-06-15 16:24:11 - Jogador2 moveu a peça de (2,3) para (3,4)
+2026-06-15 16:24:11 - Próximo turno: Jogador1
+2026-06-15 16:24:13 - Jogador1 moveu a peça de (4,3) para (3,2)
+2026-06-15 16:24:13 - Próximo turno: Jogador2
+2026-06-15 16:24:14 - Jogador2 moveu a peça de (3,4) para (4,3)
+2026-06-15 16:24:14 - Próximo turno: Jogador1
+2026-06-15 16:24:19 - Jogador1 moveu a peça de (5,2) para (4,1)
+2026-06-15 16:24:19 - Próximo turno: Jogador2
+2026-06-15 16:24:22 - Jogador2 moveu a peça de (4,3) para (5,2)
+2026-06-15 16:24:22 - Próximo turno: Jogador1
+2026-06-15 16:24:27 - Jogador1 moveu a peça de (3,2) para (2,3)
+2026-06-15 16:24:27 - Próximo turno: Jogador2
+2026-06-15 16:24:28 - Jogador2 moveu a peça de (2,1) para (3,2)
+2026-06-15 16:24:28 - Próximo turno: Jogador1
+2026-06-15 16:24:30 - Jogador1 moveu a peça de (4,1) para (3,0)
+2026-06-15 16:24:30 - Próximo turno: Jogador2
+2026-06-15 16:24:31 - Jogador2 moveu a peça de (3,2) para (4,1)
+2026-06-15 16:24:31 - Próximo turno: Jogador1
+2026-06-15 16:24:42 - Jogador1 moveu a peça de (6,3) para (5,4)
+2026-06-15 16:24:42 - Próximo turno: Jogador2
+2026-06-15 16:24:50 - Jogador2 moveu a peça de (5,2) para (6,3)
+2026-06-15 16:24:50 - Próximo turno: Jogador1
+2026-06-15 16:24:54 - Jogador1 moveu a peça de (3,0) para (2,1)
+2026-06-15 16:24:54 - Próximo turno: Jogador2
+2026-06-15 16:24:56 - Jogador2 moveu a peça de (2,5) para (3,4)
+2026-06-15 16:24:56 - Próximo turno: Jogador1
+2026-06-15 16:25:14 - Jogador1 moveu a peça de (6,1) para (5,2)
+2026-06-15 16:25:14 - Próximo turno: Jogador2
+2026-06-15 16:25:17 - Jogador2 moveu a peça de (1,4) para (2,5)
+2026-06-15 16:25:17 - Próximo turno: Jogador1
