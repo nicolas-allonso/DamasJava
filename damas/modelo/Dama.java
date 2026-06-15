@@ -31,34 +31,29 @@ public class Dama extends Peca implements Movimentavel {
      */
     @Override
     public boolean movimentoValido(Tabuleiro tabuleiro, Posicao origem, Posicao destino) throws MovimentoInvalidoException {
-        // Uma dama pode se mover qualquer número de casas na diagonal, para frente ou para trás.
         int deltaLinha = destino.getLinha() - origem.getLinha();
         int deltaColuna = destino.getColuna() - origem.getColuna();
 
-        // Movimento deve ser na diagonal (abs(deltaLinha) == abs(deltaColuna))
-        if (Math.abs(deltaLinha) != Math.abs(deltaColuna)) {
-            throw new MovimentoInvalidoException("Movimento não é diagonal para uma dama.");
-        }
+        if (Math.abs(deltaLinha) != Math.abs(deltaColuna)) throw new MovimentoInvalidoException("Não é diagonal.");
 
-        // Verificar se o caminho está livre (sem peças bloqueando)
         int passoLinha = deltaLinha > 0 ? 1 : -1;
         int passoColuna = deltaColuna > 0 ? 1 : -1;
-
         int linhaAtual = origem.getLinha() + passoLinha;
         int colunaAtual = origem.getColuna() + passoColuna;
 
-        while (linhaAtual != destino.getLinha() && colunaAtual != destino.getColuna()) {
-            if (tabuleiro.getPeca(new Posicao(linhaAtual, colunaAtual)) != null) {
-                throw new MovimentoInvalidoException("Caminho bloqueado por outra peça.");
+        int pecasNoCaminho = 0;
+        while (linhaAtual != destino.getLinha()) {
+            Peca p = tabuleiro.getPeca(new Posicao(linhaAtual, colunaAtual));
+            if (p != null) {
+                if (p.getCor() == this.getCor()) throw new MovimentoInvalidoException("Bloqueado por peça sua.");
+                pecasNoCaminho++;
             }
             linhaAtual += passoLinha;
             colunaAtual += passoColuna;
         }
 
-        // A casa de destino deve estar vazia
-        if (tabuleiro.getPeca(destino) != null) {
-            throw new MovimentoInvalidoException("Casa de destino ocupada.");
-        }
+        if (pecasNoCaminho > 1) throw new MovimentoInvalidoException("Dama só pula uma peça.");
+        if (tabuleiro.getPeca(destino) != null) throw new MovimentoInvalidoException("Destino ocupado.");
 
         return true;
     }

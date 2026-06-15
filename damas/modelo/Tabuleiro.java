@@ -76,38 +76,27 @@ public class Tabuleiro implements Serializable {
      * @throws MovimentoInvalidoException se o movimento for inválido.
      * @throws PecaInexistenteException se não houver peça na origem.
      */
-    public void moverPeca(Posicao origem, Posicao destino) throws MovimentoInvalidoException, PecaInexistenteException {
-        if (!isPosicaoValida(origem) || !isPosicaoValida(destino)) {
-            throw new MovimentoInvalidoException("Posição de origem ou destino inválida.");
-        }
-
+        public void moverPeca(Posicao origem, Posicao destino) throws MovimentoInvalidoException, PecaInexistenteException {
         Peca peca = getPeca(origem);
-        if (peca == null) {
-            throw new PecaInexistenteException("Não há peça na posição de origem.");
-        }
+        if (peca == null) throw new PecaInexistenteException("Origem vazia.");
 
-        // Valida o movimento usando o polimorfismo
         if (peca.movimentoValido(this, origem, destino)) {
-            // Lógica de captura (simplificada por enquanto)
             int deltaLinha = destino.getLinha() - origem.getLinha();
-            int deltaColuna = destino.getColuna() - origem.getColuna();
+            int passoLinha = deltaLinha > 0 ? 1 : -1;
+            int passoColuna = (destino.getColuna() - origem.getColuna()) > 0 ? 1 : -1;
+            
+            int l = origem.getLinha() + passoLinha;
+            int c = origem.getColuna() + passoColuna;
 
-            if (Math.abs(deltaLinha) == 2 && Math.abs(deltaColuna) == 2) { // Possível captura
-                int linhaMeio = origem.getLinha() + (deltaLinha / 2);
-                int colunaMeio = origem.getColuna() + (deltaColuna / 2);
-                Posicao posPecaCapturada = new Posicao(linhaMeio, colunaMeio);
-                Peca pecaCapturada = getPeca(posPecaCapturada);
-
-                if (pecaCapturada != null && pecaCapturada.getCor() != peca.getCor()) {
-                    setPeca(posPecaCapturada, null); // Remove a peça capturada
-                } else {
-                    throw new MovimentoInvalidoException("Não é possível capturar peça ali ou peça da mesma cor.");
-                }
+            // Remove qualquer peça no caminho (captura)
+            while (l != destino.getLinha()) {
+                setPeca(new Posicao(l, c), null);
+                l += passoLinha;
+                c += passoColuna;
             }
 
-            setPeca(destino, peca); // Move a peça para o destino
-            setPeca(origem, null);  // Limpa a posição de origem
-
+            setPeca(destino, peca);
+            setPeca(origem, null);
             // Lógica de promoção para Dama
             if (peca instanceof PecaComum) {
                 if ((peca.getCor() == Cor.BRANCAS && destino.getLinha() == 0) ||
